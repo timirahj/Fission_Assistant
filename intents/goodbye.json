@@ -1,0 +1,74 @@
+{
+  "id": "95e4aa89-792f-43ed-91a5-14fb06276b1a",
+  "name": "goodbye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "good bye",
+            "bye"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519770022,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "0cc6cce1-9362-4746-b874-5eaebb9f47dc",
+      "data": [
+        {
+          "text": "see you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1519769681,
+      "isAuto": false
+    },
+    {
+      "id": "fbcb889e-5f76-432f-80c4-d74347e1530a",
+      "data": [
+        {
+          "text": "bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1519769681,
+      "isAuto": false
+    },
+    {
+      "id": "e76b339a-9dfa-4a8b-aa83-b28d2cc0d78e",
+      "data": [
+        {
+          "text": "goodbye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1519769681,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
