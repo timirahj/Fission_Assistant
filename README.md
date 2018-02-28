@@ -14,3 +14,8 @@ fission function create --name silly-name --env nodejs-google-action-3 --code in
 fission route create --function silly-name --method POST --url /sillyname
 
 # finally use the relative path in "fulfillment" -> "webhook" section of dialogFlow app.
+
+# another python function with a slightly better use-case 
+fission environment create --name python --image fission/python-env
+fission function create --name githubissue --env python --code github.py
+fission route create --function githubissue --method POST --url /githubissue

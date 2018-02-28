@@ -1,0 +1,65 @@
+{
+  "id": "2e6c4b77-2b87-4861-9f6b-ce5c7e016d6c",
+  "name": "githubissuelist",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3b92fd24-400c-40a0-8649-c91ee39819a3",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "prompts": [
+            "What is your github username"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519774890,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ece74f35-25f3-4d88-b800-1178bd069a61",
+      "data": [
+        {
+          "text": "my github username is "
+        },
+        {
+          "text": "smruthi2187",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1519774890,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
